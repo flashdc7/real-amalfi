@@ -1,0 +1,36 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Home
+  screenshotPath: ../images/template-previews/home.png
+-->
+{% extends "./layouts/base.html" %}
+
+{% block body %}
+
+{# All templates are recommended to have an h1 present for both accessibility and SEO best practice. This should be at the top of the template before any other textual content. The h1 element below is within a dnd area to allow content editors the ability to adjust the content and alignment of the text. #}
+
+{% dnd_area "dnd_area"
+  label="Main section",
+  class="body-container body-container--home"
+%}
+
+{# Hero banner #}
+
+  {% include_dnd_partial path="../sections/hero-banner.html" %}
+
+{# Patrimonio #}
+
+  {% include_dnd_partial path="../sections/patrimonio.html" %}
+
+{# Certificación EDGE #}
+
+  {% include_dnd_partial path="../sections/edge.html" %}
+
+{# Amenidades – Vive en la mejor zona #}
+
+  {% include_dnd_partial path="../sections/amenidades.html" %}
+  
+
+{% end_dnd_area %}
+{% endblock body %}
