@@ -72,6 +72,8 @@ Helper classes with ability to override anything that comes before it
 {% include './components/_edge.css' %}
 {% include './components/_ubicacion.css' %}
 {% include './components/_prototipos.css' %}
+{% include './components/_contacto.css' %}
+{% include './components/_footer.css' %}
 
 {% include './utilities/_helper.css' %}
 

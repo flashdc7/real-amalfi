@@ -30,6 +30,10 @@
   max-width: 420px;
 }
 
+.edge__body-module p {
+    color: var(--heading-color-dark);
+  }
+
 /* ── Responsive – Mobile ─────────────────────────────────── */
 
 @media (max-width: 767px) {
