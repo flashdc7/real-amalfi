@@ -74,6 +74,7 @@ Helper classes with ability to override anything that comes before it
 {% include './components/_prototipos.css' %}
 {% include './components/_contacto.css' %}
 {% include './components/_footer.css' %}
+{% include './components/_opciones-vivienda.css' %}
 
 {% include './utilities/_helper.css' %}
 
