@@ -94,7 +94,7 @@
 .img-slider__arrow , .img-slider__arrow:focus{
   align-items: center;
   background-color: transparent;
-  border: 2px solid var(--primary-color, #E0001A);
+  border: 2px solid var(--heading-color-dark, #E0001A);
   border-radius: 50% !important;
   color: var(--primary-color, #E0001A);
   cursor: pointer;
@@ -111,7 +111,7 @@
 }
 
 .img-slider__arrow:hover {
-  background-color: var(--primary-color, #E0001A);
+  background-color: var(--heading-color-dark, #E0001A);
   color: #ffffff;
   transform: scale(1.07);
   border-radius: 50%;

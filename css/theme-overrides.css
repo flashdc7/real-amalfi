@@ -804,3 +804,11 @@ tfoot td {
     margin: 2rem 0 0;
     opacity: 0.75;
 }
+.proto-edge__heading-module, .proto-edge__desc-module{
+  color: var(--heading-color-dark);
+  font-size: var(--font-size-subheading);
+  font-weight: var(--font-weight-heading);
+  line-height: 1.1;
+  margin: 0 0 1rem;
+  text-align: center;
+}
