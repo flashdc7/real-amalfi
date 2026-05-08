@@ -4,7 +4,7 @@
 /* Global */
 :root {
   --primary-color: #B48F72;
-  --secondary-color: #CBD527;
+  --secondary-color: #08556D;
   --primary-color-black: #33425D;
   --accent-color: #CBD527;
   --text-color: #000104;
@@ -75,6 +75,8 @@ Helper classes with ability to override anything that comes before it
 {% include './components/_contacto.css' %}
 {% include './components/_footer.css' %}
 {% include './components/_opciones-vivienda.css' %}
+
+{% include './components/_hero-prototipo.css' %}
 
 {% include './utilities/_helper.css' %}
 

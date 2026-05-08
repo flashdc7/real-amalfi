@@ -762,7 +762,7 @@ tfoot td {
 .hero__body-module p{
   padding: 0 150px;
 }
-.btn-primary {
+.btn-primary, .btn-primary:hover {
     background-color: #ffffff;
     border: 1px solid #ffffff;
     border-radius: 6px;
@@ -775,7 +775,7 @@ tfoot td {
     text-decoration: none;
     transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
 }
-.btn-outline {
+.btn-outline, .btn-outline:hover {
     background-color: transparent;
     border: 1px solid #ffffff;
     border-radius: 6px;
