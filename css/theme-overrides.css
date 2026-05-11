@@ -795,6 +795,7 @@ tfoot td {
 }
 .h1, .h2, h1, h2{
   color: #000000;
+  font-size: var(--font-size-heading);
 }
 
 .patrimonio__disclaimer-module p {
@@ -814,4 +815,24 @@ tfoot td {
 }
 .proto-edge__logo-module{
   text-align: center;
+}
+.dnd_area-dnd_partial-1-row-0-padding {
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+  }
+
+/* ── Responsive – Mobile ─────────────────────────────────── */
+
+@media (max-width: 767px) {
+  h1,
+  .h1 {
+    font-size: 30px;
+  }
+  .hero__body-module p{
+    padding: 0 20px;
+  }
+  .hero__ctas a{
+    width: 100%;
+    margin: 0 0 20px;
+  }
 }

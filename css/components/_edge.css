@@ -23,7 +23,7 @@
 
 .edge__heading-module h2 {
   color: var(--heading-color-dark);
-  font-size: 28px;
+  font-size: var(--font-size-heading);
   font-weight: var(--font-weight-base);
   line-height: 1;
   margin: 0 0 0.9rem;
