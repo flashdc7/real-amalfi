@@ -793,8 +793,11 @@ tfoot td {
   display: block;
   text-align: center;
 }
-.h1, .h2, h1, h2{
+.h1, h1{
   color: #000000;
+  font-size: clamp(38px, 4.5vw, 68px);
+}
+.h1, .h2, h2{
   font-size: var(--font-size-heading);
 }
 
@@ -813,6 +816,11 @@ tfoot td {
   margin: 0 0 1rem;
   text-align: center;
 }
+.proto-edge__heading-module h2, .proto-edge__desc-module h2{
+  color: var(--heading-color-dark);
+  /* font-size: var(--font-size-subheading);
+  font-weight: var(--font-weight-heading); */
+}
 .proto-edge__logo-module{
   text-align: center;
 }
@@ -825,6 +833,9 @@ tfoot td {
 @media (min-width: 768px) and (max-width: 1024px) {
   #main-content .dnd_area-dnd_partial-1-row-0-padding {
     padding: 250px 30px 60px !important; 
+  }
+  .dnd-section:has(.hero-prototipo__eyebrow-module) {
+    min-height: 49vh;
   }
 }
 @media (max-width: 767px) {
@@ -839,4 +850,5 @@ tfoot td {
     width: 100%;
     margin: 0 0 20px;
   }
+  
 }

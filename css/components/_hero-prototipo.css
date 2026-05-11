@@ -57,7 +57,7 @@
 
 @media (max-width: 767px) {
   .dnd-section:has(.hero-prototipo__eyebrow-module) {
-    min-height: 100svh;
+    min-height: 80svh;
   }
 
   .dnd-section:has(.hero-prototipo__eyebrow-module) .dnd-column {

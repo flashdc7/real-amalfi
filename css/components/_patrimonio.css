@@ -59,4 +59,7 @@ p.icon-rt__subtitulo{
   .patrimonio__heading-module h2 {
     max-width: 100%;
   }
+  .patrimonio__infografia-module img {
+    margin-top: 30px
+  }
 }
