@@ -822,7 +822,11 @@ tfoot td {
   }
 
 /* ── Responsive – Mobile ─────────────────────────────────── */
-
+@media (min-width: 768px) and (max-width: 1024px) {
+  #main-content .dnd_area-dnd_partial-1-row-0-padding {
+    padding: 250px 30px 60px !important; 
+  }
+}
 @media (max-width: 767px) {
   h1,
   .h1 {

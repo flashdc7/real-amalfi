@@ -119,6 +119,33 @@
         "min": 900,
         "suffix": "px",
         "default": 1240
+      },
+      {
+        "label": "Tablet Padding (768px - 1024px)",
+        "name": "tablet",
+        "type": "group",
+        "children": [
+          {
+            "label": "Padding Top",
+            "name": "padding_top",
+            "type": "number",
+            "display": "slider",
+            "max": 500,
+            "min": 0,
+            "suffix": "px",
+            "default": 100
+          },
+          {
+            "label": "Padding Bottom",
+            "name": "padding_bottom",
+            "type": "number",
+            "display": "slider",
+            "max": 500,
+            "min": 0,
+            "suffix": "px",
+            "default": 100
+          }
+        ]
       }
     ]
   },

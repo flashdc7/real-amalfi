@@ -240,7 +240,22 @@ form .inputs-list > li{margin:0px}
   font-size:11px;
   margin-top: 0.25rem;
 }
+/* ── Responsive – Mobile ─────────────────────────────────── */
+@media (min-width: 768px) and (max-width: 1024px) {
 
+  form .hs-button, form input[type=submit] {
+    width: 100% !important;
+      border: 1px solid #fff;
+      border-radius: 6px;
+      display: inline-block;
+      font-size: var(--font-size-button) !important;
+      font-weight: 600 !important;
+      letter-spacing: .01em;
+      padding: 10px 15px;
+      text-decoration: none;
+      transition: background-color .2s ease, border-color .2s ease, transform .15s ease;
+  }
+}
 /* ── Responsive ─────────────────────────────────────────── */
 
 @media (max-width: 767px) {
