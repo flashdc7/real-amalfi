@@ -17,12 +17,11 @@
     border: none !important;
 }
 /* ── Columna izquierda ────────────────────────────────────── */
-
 .contacto__heading-module h2 {
   color: #ffffff;
   font-weight: var(--font-weight-heading);
   line-height: 1.25;
-  margin: 0 0 1.25rem;
+  margin: 75px 0 1.25rem;
 }
 
 .contacto__desc-module p {
@@ -240,6 +239,18 @@ form .inputs-list > li{margin:0px}
   font-size:11px;
   margin-top: 0.25rem;
 }
+
+ /* Control de posición y tamaño */
+   .patrimonio__infografia-module {
+     text-align: left;
+     margin-top: 20px;/
+     display: block;
+   }
+      .patrimonio__infografia-module img {
+     max-width: 80%;
+     height: auto;
+     float: right;
+   }
 /* ── Responsive – Mobile ─────────────────────────────────── */
 @media (min-width: 768px) and (max-width: 1024px) {
 

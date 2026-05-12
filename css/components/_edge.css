@@ -25,6 +25,7 @@
   color: var(--heading-color-dark);
   font-size: var(--font-size-heading);
   font-weight: var(--font-weight-base);
+  font-weight: var(--font-weight-heading-black);
   line-height: 1;
   margin: 0 0 0.9rem;
   max-width: 420px;

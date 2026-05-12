@@ -19,6 +19,7 @@ html[lang^="ko"] body {
 
 p {
   font-size: .75rem;
+  font-size: var(--font-size-base);
   margin: 0 0 1.4rem;
 }
 

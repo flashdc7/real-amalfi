@@ -62,11 +62,12 @@
   font-weight: 500;
   line-height: 1;
   margin: 0px 0px 5px;
-  color: var(--heading-color-dark);
+  color: var(--primary-color);
 }
 
 .icon-rt__content .icon-rt__title strong {
   color: var(--heading-color-dark);
+  color: var(--primary-color);
 }
 
 /* Segunda línea: descripción */

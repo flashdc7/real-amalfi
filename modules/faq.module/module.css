@@ -43,7 +43,7 @@
 
 .faq__trigger:hover,
 .faq__trigger:focus {
-  background-color: #fff;
+  background-color: transparent;
   border: none;
   border-radius: 0;
 }
